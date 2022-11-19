@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Objectivity',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.blueMaterial{
+  background-color: #505ECE;
+  color: white;
+}
+
+.parry{
+  background-color: #307388;
+}
+
+.fluff{
+  background-color:#EFF4F9;
+}
+
+.violet{
+  background-color: #1C122E;
+  color: white;
+}
+
+.blackMaterial{
+  color:#00000A;
+}
+
+.ibmFont300{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+}
+
+.ibmFont400{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+}
+
+.ibmFont500{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+}
+
+.integration{
+  background-image: url("./images/integrationbg.png");
+  background-repeat:no-repeat;
+  background-size: 100% auto;
+  
+  background-position: bottom;
+}
+
+.footer{
+  background-image: url("./images/footerbg.png");
+  background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+}
