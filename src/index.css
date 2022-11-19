@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family:  Objectivity;
+  src: url('/src//fonts/Objectivity.ttf');
+}
+
 body {
   margin: 0;
   font-family: 'Objectivity',
